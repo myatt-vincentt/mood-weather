@@ -33,6 +33,17 @@
     "src/Scene.tsx",
     "src/FaceBoundingBox.tsx",
     "src/FooterHud.tsx",
-    "src/HandBoundingBox.tsx"
+    "src/HandBoundingBox.tsx",
+    "src/DevMediaSwitcher.tsx",
+    "src/DevWeather.tsx",
+    "src/weather/Weather.tsx",
+    "src/weather/ExperienceStatus.tsx",
+    "src/weather/FaceReader.tsx",
+    "src/weather/Prompt.tsx",
+    "src/weather/config.ts",
+    "src/weather/mood.ts",
+    "src/weather/mood.test.ts",
+    "src/weather/state.ts",
+    "src/weather/DayNight.tsx"
   ]
 }

@@ -7,3 +7,7 @@ opencode.json
 .env
 .env.local
 *.log
+
+# Dev-only preview clips (licence unknown, never shipped)
+dev-media/*.mp4
+dev-media/*.mov

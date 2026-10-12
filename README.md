@@ -1,3 +1,23 @@
+# Mood Weather
+
+Your expression sets the sky behind you (the room is replaced by an animated sky): 😊 smile for
+sunshine and a rainbow, ☹️ frown for rain, 😮 surprise for lightning, 😠 angry for a thunderstorm,
+🐡 puffed cheeks for wind, 😗 a pout for falling hearts. The stronger the expression, the stronger
+the weather; it falls behind and in front of you and lights you to match. An intro card and a
+row of expression chips show what each face does, light up the weather on show, and say "Hold it…"
+while an expression builds. If your face isn't read well, tap a chip (click or touch): that
+weather comes on and stays until you tap it again. A neutral face brings back a calm, partly cloudy sky. ✌️ A peace sign flips day and night
+(stars, a moon, fireflies); rain leaves puddles that splash and ripple, wind tugs at you, and the
+sun smiles back as wide as you do.
+
+- Dev preview without a camera: the media switcher (☰) starts on the SDK's "Person Looking"
+  video ("Two People Smiling" tests sunshine). No sample pouts or puffs, so dev-only keys force
+  each weather: 1 calm, 2 sunny, 3 rain, 4 lightning, 5 storm, 6 wind, 7 hearts, 0 back to the
+  face; N flips day / night. An optional local clip goes at `dev-media/face.mp4` (see `dev-media/README.md`).
+- Tuning: `src/weather/config.ts`. How it works: `PLAN.md`.
+
+---
+
 # v2-template
 
 The Vincentt starter app: a real React + R3F + Vincentt XR SDK (`@vincentt-xr/sdk`)
