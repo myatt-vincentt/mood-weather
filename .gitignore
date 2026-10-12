@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.DS_Store
+.vincentt/
+.opencode/
+opencode.json
+.env
+.env.local
+*.log
